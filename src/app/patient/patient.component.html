@@ -1,0 +1,17 @@
+<table>
+  <tr *ngIf="patients">
+    <td *ngFor="let patient of patients">
+      <mat-card class="patient-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{patient.nom}}</mat-card-title>
+          <mat-card-subtitle>patient</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+    </td>
+    <td><button mat-raised-button (click)="openDialog()">Ajouter patient</button></td>
+  </tr>
+</table>
+
+
+

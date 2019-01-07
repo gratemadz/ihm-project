@@ -1,0 +1,13 @@
+<table style="margin:1em auto;">  
+  <tr *ngIf="infirmiers" >
+    <td *ngFor="let infirmier of infirmiers">
+      <mat-card class="infirmier-card" >
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{infirmier.nom}}</mat-card-title>
+          <mat-card-subtitle>infirmier</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,15 @@
+
+.patient-card{
+    border: 2px;
+    max-width: 200px; 
+    background-color:#96639cc0;
+}
+
+table {
+    margin: 420px auto auto;
+  }
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
